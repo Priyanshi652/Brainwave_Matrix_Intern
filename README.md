@@ -128,10 +128,3 @@ Sales peak on weekends, with **Saturday being the highest sales day (78.81K)**, 
 ✉ - priyanshikhandelwal2107@gmail.com 
 
 ### thankyou
-
-Bundle offers and discounts for low-selling categories like Beauty can help improve sales.
-  
-
----
-
-This project provides **valuable data-driven insights** that can be applied to **real-world retail business optimization**. 🚀
