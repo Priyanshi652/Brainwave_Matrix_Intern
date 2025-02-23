@@ -1,28 +1,27 @@
 ### **📊 Commercial Store Analysis – README**  
 
 #### **📌 Project Overview**  
-This project aims to analyze the sales performance, customer purchasing behavior, and revenue trends of a commercial store. Using data-driven insights, we assess product category performance, customer demographics, seasonal trends, and the impact of discounts. The analysis helps optimize business strategies for better revenue generation and customer engagement.  
+This project was undertaken as part of the Brainware Solutions Internship to analyze the sales performance, customer purchasing behavior, and revenue trends of a commercial store. Using data-driven insights, we assess product category performance, customer demographics, seasonal trends, and the impact of discounts. The analysis helps optimize business strategies for better revenue generation and customer engagement.
 
 ---
 
 ## **📂 Table of Contents**  
 1. [Dataset Overview](#dataset-overview)  
-2. [Tools & Libraries Used](#tools--libraries-used)  
-3. [Data Preprocessing](#data-preprocessing)  
+2. [Tools & Libraries Used](#tools--libraries-used)
+3. [Data Preprocessing](#Data-Preprocessing)
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
 5. [Key Business Insights](#key-business-insights)  
 6. [Conclusion & Recommendations](#conclusion--recommendations)  
-7. [How to Use](#how-to-use)  
 
 ---
 
 ## **📊 Dataset Overview**  
 The dataset contains sales transactions from a commercial store, covering details such as:  
-- **Customer Demographics:** Age, gender, and payment methods.  
-- **Sales Data:** Product categories, transaction amounts, and discounts applied.  
-- **Time-based Trends:** Weekly and monthly sales performance.  
+- **Customer Demographics:** Age, gender.
+- **Sales Data:** Product categories, transaction amounts,Price per Unit
+- **Time-based Trends:** sales performance according to dates.  
 
-The data is used to perform **statistical analysis and visualization** for better decision-making.  
+The data is used to perform **analysis and visualization** for better decision-making.  
 
 ---
 
@@ -37,8 +36,7 @@ The data is used to perform **statistical analysis and visualization** for bette
 | **Matplotlib**   | Data visualization (charts, plots) |
 | **Seaborn**      | Advanced statistical data visualization |
 | **Plotly**       | Interactive visualizations |
-| **Scipy**        | Statistical computations |
-| **Sklearn**      | Clustering (for customer segmentation) |
+
 
 ---
 
@@ -70,46 +68,69 @@ Several statistical and visual methods were used to derive insights:
 - **Average transaction value:** Identified high-value vs. low-value customers.  
 - **Loyalty segmentation:** Analyzed customer retention based on spending patterns.  
 
-### **5️⃣ Discount Impact Analysis**  
-- **Correlation between discounts & revenue.**  
-- **Effect of discount-driven promotions on sales volume.**  
 
-### **6️⃣ Payment Preferences Analysis**  
-- **Digital vs. cash payments:** Identified customer preferences.  
-- **Adoption of credit cards & digital wallets.**  
+### **Insights**
+### ** 1.Customer Demographics & Behavior**
+Gender distribution is nearly balanced, with **51.1%** male and **48.9%** female customers contributing to transactions.
+The business has 1,000 unique customers, indicating a lack of repeat purchases.
+Age distribution analysis suggests that the **26-35 and 46-55** age groups contribute the most sales, making them the primary target audience.
+
+### **2. Customer Purchase Patterns (FM Analysis)**
+**No repeat transactions were observed**, highlighting the need for a retention strategy.
+
+**High-Spenders:**
+
+**CUST002 (50% of revenue) and CUST004 (25%) are the most valuable customers.**
+
+**Low-Spenders:**
+
+**CUST003 (1.5% of revenue)** has the lowest spending, with **CUST001 and CUST005** also contributing less.
+Recency Insights:
+**CUST001 (most recent, 38 days ago)** presents a potential for repeat engagement.
+**CUST003 (least recent, 353 days ago)** is at high risk of churn.
+
+### **3. Sales Performance & Trends**
+
+**Product category analysis:**
+
+**Electronics (34.4%) and Clothing (34.1%)** drive the most sales, followed by **Beauty (31.5%).**
+Sales peak on weekends, with **Saturday being the highest sales day (78.81K)**, while **Thursday records the lowest (53.83K).**
+
+### **4. Customer Lifetime Value (CLV) Distribution**
+**Right-skewed distribution** indicates that most customers have low CLV, with a few high-value customers driving revenue.
+
+**Outliers present, suggesting a small segment of exceptionally high-spending customers.**
 
 ---
 
-## **📌 Key Business Insights**  
-📍 **Young Adults (20-40 years) contribute 75% of total sales.**  
-📍 **Electronics (22.6% of transactions) generate the highest revenue (35.2%).**  
-📍 **Sales peak on weekends, with the lowest activity on Mondays.**  
-📍 **Customers using discounts spend 30% more per transaction.**  
-📍 **80% of transactions are digital, with credit cards (55%) being the most preferred.**  
+### **Conclusion & Recommendations**
 
-For a **detailed insights summary, refer to the [Insights Report](#)**.  
+**1. Improve Customer Retention**
+**Loyalty programs, discount offers, and personalized campaigns** should be introduced to encourage repeat purchases.
+**Targeted email campaigns** can re-engage one-time buyers.
 
----
+**2. Focus on High-Value Customers (CUST002, CUST004)**
+**Exclusive offers and premium services** should be designed to retain these top contributors.
+**Proactive engagement (personalized emails, discounts)** can ensure repeat purchases.
 
-## **📢 Conclusion & Recommendations**  
-✅ **Target the 20-40 age group** with personalized marketing.  
-✅ **Increase weekend promotions** to capitalize on peak sales.  
-✅ **Leverage discounts strategically** to boost customer spending.  
-✅ **Optimize digital payment options** with cashback incentives.  
-✅ **Revise inventory planning** based on seasonal trends.  
+**3. Reactivate Inactive Customers (CUST003, CUST004)**
+**Win-back campaigns**, such as special discounts and reminders, can help bring back customers with older purchase dates.
 
----
+**4. Leverage Peak Sales Days**
+**Weekend promotions (especially on Saturdays)** can be used to further increase sales.
+**Marketing efforts should focus on boosting midweek sales, especially Thursdays, by offering discounts or special deals.**
 
-## **📌 How to Use**  
-1️⃣ Clone this repository:  
-```bash
-git clone https://github.com/your-repo/commercial-store-analysis.git
-```  
-2️⃣ Install required dependencies:  
-```bash
-pip install pandas numpy matplotlib seaborn plotly scikit-learn
-```  
-3️⃣ Open the Jupyter Notebook and execute the cells to analyze the dataset.  
+**5. Product Strategy**
+**Since Electronics and Clothing contribute the highest revenue, more focus should be placed on promoting these categories.**
+
+### **for further queries feel free to contact me via :**
+
+✉ - priyanshikhandelwal2107@gmail.com 
+
+### thankyou
+
+Bundle offers and discounts for low-selling categories like Beauty can help improve sales.
+  
 
 ---
 
